@@ -10,3 +10,12 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+var a = 5 
+var b = 10
+var swap
+
+swap = a
+a = b
+b = swap
+
+console.log(a,b)

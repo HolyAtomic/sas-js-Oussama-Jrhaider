@@ -18,3 +18,15 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let panier = 350
+let livraisonfabor = false
+
+if (panier > 200){
+    livraisonfabor = true
+}
+if(panier > 500){
+    panier *= 0.90
+}
+console.log("Le coût final: " + panier + " MAD")
+console.log("La livraison gratuite: " + livraisonfabor)

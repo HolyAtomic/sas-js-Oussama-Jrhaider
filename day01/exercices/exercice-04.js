@@ -16,3 +16,14 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+let str = "YouCode"
+let nbr = 42
+let b = true
+let ntg ;
+let nil = null
+
+console.log(typeof str)
+console.log(typeof nbr)
+console.log(typeof b)
+console.log(typeof ntg)
+console.log(typeof nil)
