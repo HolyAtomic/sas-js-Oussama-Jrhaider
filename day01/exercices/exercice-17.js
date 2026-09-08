@@ -1,4 +1,4 @@
-/**
+**
  * ─────────────────────────────────────────────────────────────
  * JOUR 01 · EXERCICE 17 · NIVEAU 3 : DÉFI (AVANCÉS)
  * JEU : PIERRE, PAPIER, CISEAUX
@@ -17,7 +17,6 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
 
 let joueur1 = "Pierre";
 let joueur2 = "Ciseaux";
