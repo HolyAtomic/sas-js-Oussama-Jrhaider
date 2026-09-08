@@ -1,4 +1,4 @@
-**
+/*
  * ─────────────────────────────────────────────────────────────
  * JOUR 01 · EXERCICE 17 · NIVEAU 3 : DÉFI (AVANCÉS)
  * JEU : PIERRE, PAPIER, CISEAUX
@@ -23,7 +23,7 @@ let joueur2 = "Ciseaux";
 
 if (joueur1 === joueur2) {
     console.log("Égalité");
-} else if (
+}else if (
     (joueur1 === "Pierre" && joueur2 === "Ciseaux") ||
     (joueur1 === "Ciseaux" && joueur2 === "Feuille") ||
     (joueur1 === "Feuille" && joueur2 === "Pierre")
