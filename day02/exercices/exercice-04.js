@@ -18,11 +18,10 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
-let i = 0;
-let somme= 0;
-while(i <= 50){
-    somme += i
-    i++
+let somme = 0;
+let i = 1;
+while (i <= 50) {
+    somme += i;
+    i++;
 }
-console.log(somme)
-return 0;
+console.log(somme);

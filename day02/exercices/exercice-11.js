@@ -17,4 +17,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let resultat = 1;
+let exposant = 0;
+while (exposant < 10) {
+	resultat *= 2;
+	exposant++;
+}
+console.log(resultat);
 // TODO: écris ta solution ici.

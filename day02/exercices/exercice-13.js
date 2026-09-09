@@ -14,4 +14,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let precedent = 0;
+let suivant = 1;
+
+let position = 0;
+while (position < 10) {
+	console.log(precedent);
+	const prochain = precedent + suivant;
+	precedent = suivant;
+	suivant = prochain;
+	position++;
+}
 // TODO: écris ta solution ici.

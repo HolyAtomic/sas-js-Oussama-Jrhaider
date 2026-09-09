@@ -14,4 +14,22 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let nb = 29;
+let estPremier = nb > 1;
+
+let diviseur = 2;
+while (diviseur < nb) {
+	if (nb % diviseur === 0) {
+		estPremier = false;
+		break;
+	}
+	diviseur++;
+}
+
+if (estPremier) {
+	console.log(nb + " est un nombre premier");
+} else {
+	console.log(nb + " n'est pas un nombre premier");
+}
 // TODO: écris ta solution ici.

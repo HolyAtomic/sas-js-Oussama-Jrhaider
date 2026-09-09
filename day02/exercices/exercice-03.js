@@ -15,10 +15,9 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
-let i = 0;
-while(i <= 10){
+let i = 1;
+while (i <= 10) {
     console.log(i * 7)
-    i++
+    i++;
 }
-return 0
 

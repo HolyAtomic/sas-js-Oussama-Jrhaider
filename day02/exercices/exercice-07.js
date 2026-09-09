@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let code = 65;
+while (code <= 90) {
+	console.log(String.fromCharCode(code));
+	code++;
+}
 // TODO: écris ta solution ici.

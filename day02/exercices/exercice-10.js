@@ -17,4 +17,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let factorielle = 1;
+let nombre = 1;
+while (nombre <= 6) {
+	factorielle *= nombre;
+	nombre++;
+}
+console.log(factorielle);
 // TODO: écris ta solution ici.

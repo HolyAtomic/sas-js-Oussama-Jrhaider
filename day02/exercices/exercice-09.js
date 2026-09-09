@@ -18,4 +18,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let nombre = 1;
+while (nombre <= 50) {
+	if (nombre % 3 === 0 && nombre % 5 === 0) {
+		console.log("FizzBuzz");
+	} else if (nombre % 3 === 0) {
+		console.log("Fizz");
+	} else if (nombre % 5 === 0) {
+		console.log("Buzz");
+	} else {
+		console.log(nombre);
+	}
+	nombre++;
+}
 // TODO: écris ta solution ici.

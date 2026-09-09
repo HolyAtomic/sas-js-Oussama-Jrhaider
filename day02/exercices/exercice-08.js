@@ -14,4 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let nombre = 1;
+while (nombre <= 20) {
+	if (nombre % 3 === 0) {
+		nombre++;
+		continue;
+	}
+	console.log(nombre);
+	nombre++;
+}
 // TODO: écris ta solution ici.

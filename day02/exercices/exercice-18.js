@@ -17,4 +17,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let N = 15;
+let etapes = 0;
+
+while (N !== 1) {
+	if (N % 2 === 0) {
+		N /= 2;
+	} else {
+		N = N * 3 + 1;
+	}
+	etapes++;
+}
+
+console.log(etapes);
 // TODO: écris ta solution ici.

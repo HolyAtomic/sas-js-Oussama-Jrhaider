@@ -15,8 +15,9 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
-let motDePasse = "faux"
+let motDePasse = "faux";
 
 do {
-        
-}
+    console.log("Veuillez entrer le mot de passe");
+    motDePasse = "secret";
+} while (motDePasse !== "secret");

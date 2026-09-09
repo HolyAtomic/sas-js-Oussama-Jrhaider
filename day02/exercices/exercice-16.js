@@ -20,4 +20,21 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let ligne = 1;
+while (ligne <= 5) {
+	let texte = "";
+	let espace = 1;
+	while (espace <= 5 - ligne) {
+		texte += " ";
+		espace++;
+	}
+	let etoile = 1;
+	while (etoile <= ligne * 2 - 1) {
+		texte += "*";
+		etoile++;
+	}
+	console.log(texte);
+	ligne++;
+}
 // TODO: écris ta solution ici.

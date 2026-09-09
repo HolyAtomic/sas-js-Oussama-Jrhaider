@@ -15,4 +15,17 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let echiquier = "";
+let ligne = 0;
+while (ligne < 8) {
+	let colonne = 0;
+	while (colonne < 8) {
+		echiquier += (ligne + colonne) % 2 === 0 ? " " : "#";
+		colonne++;
+	}
+	echiquier += "\n";
+	ligne++;
+}
+console.log(echiquier);
 // TODO: écris ta solution ici.

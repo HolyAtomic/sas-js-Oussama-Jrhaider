@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let racine = 1;
+while (racine * racine <= 1000) {
+	racine++;
+}
+console.log(racine * racine);
 // TODO: écris ta solution ici.
