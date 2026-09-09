@@ -1,4 +1,4 @@
-i/**
+/**
  * ─────────────────────────────────────────────────────────────
  * JOUR 01 · EXERCICE 01 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
  * DÉCLARATION BASIQUE
