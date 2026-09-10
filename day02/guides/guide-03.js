@@ -9,17 +9,17 @@
  */
 'use strict';
 
-let i = 0;
+let i = 0
 
 while (i < 3) {
-  let ligne = '';
-  let j = 0;
+  let ligne = ''
+  let j = 0
 
   while (j < 3) {
-    ligne += '*';
-    j++;
+    ligne += '*'
+    j++
   }
 
-  console.log(ligne);
-  i++;
+  console.log(ligne)
+  i++
 }

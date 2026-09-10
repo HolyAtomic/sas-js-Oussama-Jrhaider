@@ -9,12 +9,12 @@
  */
 'use strict';
 
-let n = 100;
-let compteur = 0;
+let n = 100
+let compteur = 0
 
 while (n >= 1) {
-  n = n / 2;
-  compteur++;
+  n = n / 2
+  compteur++
 }
 
-console.log(compteur);
+console.log(compteur)
