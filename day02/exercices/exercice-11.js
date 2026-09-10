@@ -25,4 +25,4 @@ while (exposant < 10) {
 	exposant++;
 }
 console.log(resultat);
-// TODO: écris ta solution ici.
+ 

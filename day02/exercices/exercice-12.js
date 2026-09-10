@@ -32,4 +32,4 @@ if (estPremier) {
 } else {
 	console.log(nb + " n'est pas un nombre premier");
 }
-// TODO: écris ta solution ici.
+ 

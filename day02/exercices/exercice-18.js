@@ -31,4 +31,4 @@ while (N !== 1) {
 }
 
 console.log(etapes);
-// TODO: écris ta solution ici.
+ 

@@ -25,4 +25,4 @@ while (nombre <= 6) {
 	nombre++;
 }
 console.log(factorielle);
-// TODO: écris ta solution ici.
+ 

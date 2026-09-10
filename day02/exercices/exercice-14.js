@@ -20,4 +20,4 @@ while (racine * racine <= 1000) {
 	racine++;
 }
 console.log(racine * racine);
-// TODO: écris ta solution ici.
+ 

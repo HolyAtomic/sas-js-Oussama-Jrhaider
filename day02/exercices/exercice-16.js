@@ -37,4 +37,4 @@ while (ligne <= 5) {
 	console.log(texte);
 	ligne++;
 }
-// TODO: écris ta solution ici.
+ 

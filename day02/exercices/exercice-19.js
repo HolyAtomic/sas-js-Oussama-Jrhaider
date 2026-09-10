@@ -28,4 +28,4 @@ while (ligne < 8) {
 	ligne++;
 }
 console.log(echiquier);
-// TODO: écris ta solution ici.
+ 

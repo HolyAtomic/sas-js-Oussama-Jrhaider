@@ -25,4 +25,4 @@ while (totalItems > 0) {
 	totalItems -= itemsDeLaPage;
 	page++;
 }
-// TODO: écris ta solution ici.
+ 

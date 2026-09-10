@@ -32,4 +32,4 @@ while (nombre <= 50) {
 	}
 	nombre++;
 }
-// TODO: écris ta solution ici.
+ 
