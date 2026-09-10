@@ -30,4 +30,3 @@ while (nombre <= max) {
 	nombre++;
 }
 }
-jouerFizzBuzz(50)

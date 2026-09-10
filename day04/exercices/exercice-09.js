@@ -25,4 +25,3 @@ function trouverMax(a, b, c){
         return c
     }
 }
-console.log(trouverMax(3, 7, 15));

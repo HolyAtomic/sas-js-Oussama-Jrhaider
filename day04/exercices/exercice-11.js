@@ -24,5 +24,3 @@ while (nombre <= n) {
 }
  return factorielle
 }
-console.log(calculerFactorielle(6));
-console.log(calculerFactorielle(0));

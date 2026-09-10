@@ -18,4 +18,3 @@
 function perimetreRectangle(longueur, largeur = 5){
     return 2 * (longueur + largeur)
 }
-console.log(perimetreRectangle(10, 5))

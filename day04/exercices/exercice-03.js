@@ -18,4 +18,3 @@
 function madToEur(mad){
     return mad / 10.8
 }
-console.log(madToEur(1000))

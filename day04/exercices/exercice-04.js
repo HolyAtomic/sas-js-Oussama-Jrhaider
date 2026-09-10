@@ -22,4 +22,3 @@ function estMajeur(age){
         return false
     }
 }
-console.log(estMajeur(12))

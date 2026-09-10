@@ -16,19 +16,19 @@
 // 2. Écris ta solution sous cette ligne.
  
 function genererMotDePasse(longueur) {
-    let motDePasse = "";
-    let i = 0;
+    let motDePasse = ""
+    let i = 0
 
     while (i < longueur) {
 
         if (Math.random() < 0.5) {
-            motDePasse += "A";
+            motDePasse += "A"
         } else {
-            motDePasse += Math.floor(Math.random() * 10);
+            motDePasse += Math.floor(Math.random() * 10)
         }
 
-        i++;
+        i++
     }
 
-    return motDePasse;
+    return motDePasse
 }
