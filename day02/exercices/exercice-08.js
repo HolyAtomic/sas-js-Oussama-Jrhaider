@@ -24,4 +24,4 @@ while (nombre <= 20) {
 	console.log(nombre);
 	nombre++;
 }
-// TODO: écris ta solution ici.
+

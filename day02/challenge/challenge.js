@@ -20,5 +20,31 @@
  */
 'use strict';
 
-// Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+const codeSecret = 739;
+let essais = 0;
+let trouve = false;
+let c1 = 0;
+
+while (c1 <= 9 && !trouve) {
+  let c2 = 0;
+
+  while (c2 <= 9 && !trouve) {
+    let c3 = 0;
+
+    while (c3 <= 9 && !trouve) {
+      essais++;
+      const codeTeste = c1 * 100 + c2 * 10 + c3;
+
+      if (codeTeste === codeSecret) {
+        trouve = true;
+        console.log(`Code trouvé : ${codeSecret} après ${essais} essais`);
+      }
+
+      c3++;
+    }
+
+    c2++;
+  }
+
+  c1++;
+}
