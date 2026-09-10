@@ -8,5 +8,13 @@
  * Aide : consulte ../02-guides.md seulement si tu bloques.
  */
 'use strict';
+let n = 100
+let i = 0
+
+while(n >= 1){
+    n /= 2
+    i++
+}
+console.log(i)
 
 // TODO: écris ta solution ici.
