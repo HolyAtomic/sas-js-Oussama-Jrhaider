@@ -17,7 +17,7 @@
 
 let code = 65;
 while (code <= 90) {
-	console.log(String.fromCharCode(code));
+    console.log(String.fromCharCode(code));
 	code++;
 }
 // TODO: écris ta solution ici.
