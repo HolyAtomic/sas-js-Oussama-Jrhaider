@@ -12,6 +12,6 @@
  */
 'use strict';
 
-const tweet = 'Beau temps ? #Nador aujourd'hui avec la team #YouCode !';
+const tweet = "Beau temps à #Nador aujourd'hui avec la team #YouCode !";
 const hashtags = tweet.match(/#[A-Za-z0-9_]+/g) ?? [];
 console.log(hashtags);
