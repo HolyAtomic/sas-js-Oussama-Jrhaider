@@ -16,12 +16,14 @@
 // 2. Écris ta solution sous cette ligne.
  
 function trouverMax(a, b, c){
-    if (a > b && a > c){
-        return a
+    let maximum = a;
+
+    if (b > maximum) {
+        maximum = b;
     }
-    else if(b > a && b > c){
-        return b
-    }else{
-        return c
+    if (c > maximum) {
+        maximum = c;
     }
+
+    return maximum;
 }

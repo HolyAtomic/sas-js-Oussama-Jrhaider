@@ -14,4 +14,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
- 
+
+function extrairePrixEtConvertir(chaineBrute) {
+	if (typeof chaineBrute !== "string") {
+		return null;
+	}
+
+	const correspondance = chaineBrute.trim().match(/-?\d+(?:[.,]\d+)?/);
+
+	if (correspondance === null) {
+		return null;
+	}
+
+	const prix = Number(correspondance[0].replace(",", "."));
+	return Number.isNaN(prix) ? null : prix;
+}
+

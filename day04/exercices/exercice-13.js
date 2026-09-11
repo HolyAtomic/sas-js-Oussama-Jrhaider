@@ -26,9 +26,9 @@ function genererMotDePasse(longueur) {
         } else {
             motDePasse += Math.floor(Math.random() * 10)
         }
-
         i++
     }
 
     return motDePasse
 }
+console.log(genererMotDePasse(2));

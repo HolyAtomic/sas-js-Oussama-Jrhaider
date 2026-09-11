@@ -21,4 +21,32 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
- 
+let or = 0;
+
+function ajouterOr(montant) {
+	or += montant;
+	console.log(`Vous avez ramassé ${montant} or. Total: ${or}`);
+}
+
+function depenserOr(montant) {
+	if (or >= montant) {
+		or -= montant;
+		console.log(`Vous avez acheté l'épée pour ${montant} or. Total: ${or}`);
+	} else {
+		console.log("Fonds insuffisants");
+	}
+}
+
+function combatGagne() {
+	const recompense = Math.floor(Math.random() * 41) + 10;
+	ajouterOr(recompense);
+}
+
+let combats = 0;
+while (combats < 3) {
+	combatGagne();
+	combats++;
+}
+
+depenserOr(100);
+

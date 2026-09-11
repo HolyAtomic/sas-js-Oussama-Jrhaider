@@ -15,4 +15,22 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
- 
+
+function fibonacci(n){
+    if (n <= 1) {
+        return n;
+    }
+
+    let precedent = 0;
+    let courant = 1;
+    let position = 2;
+
+    while (position <= n) {
+        const suivant = precedent + courant;
+        precedent = courant;
+        courant = suivant;
+        position++;
+    }
+
+    return courant;
+}

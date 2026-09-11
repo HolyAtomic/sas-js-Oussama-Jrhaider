@@ -14,4 +14,28 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
- 
+
+function creerCalculAvecCache() {
+	const cache = {};
+
+	return function calculer(nombre) {
+		if (Object.prototype.hasOwnProperty.call(cache, nombre)) {
+			return cache[nombre];
+		}
+
+		let resultat = 0;
+		let compteur = 0;
+		while (compteur <= nombre) {
+			resultat += compteur;
+			compteur++;
+		}
+
+		cache[nombre] = resultat;
+		return resultat;
+	};
+}
+
+const calculerAvecCache = creerCalculAvecCache();
+console.log(calculerAvecCache(100));
+console.log(calculerAvecCache(100));
+

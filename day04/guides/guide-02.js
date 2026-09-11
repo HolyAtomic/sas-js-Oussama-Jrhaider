@@ -9,4 +9,11 @@
  */
 'use strict';
 
- 
+function testScope() {
+	let secret = "123";
+	return secret;
+}
+
+console.log(testScope());
+
+

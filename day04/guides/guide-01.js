@@ -9,6 +9,8 @@
  */
 'use strict';
 
- function saluer(nom){
-    return `"Bonjour, ${nom} !"`
- }
+function saluer(nom) {
+   return `Bonjour, ${nom} !`;
+}
+
+console.log(saluer("Yassine"));

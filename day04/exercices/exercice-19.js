@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
- 
+
+function alarme(message, secondes) {
+	setTimeout(function () {
+		console.log(message);
+	}, secondes * 1000);
+}
+
+alarme("Alarme déclenchée", 0);
+
