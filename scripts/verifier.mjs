@@ -5,7 +5,7 @@ import vm from 'node:vm';
 const root = process.cwd();
 const dayPattern = /^day\d{2}$/;
 const exercisePattern = /^exercice-\d{2}\.js$/;
-const todoMarker = '// TODO: écris ta solution ici.';
+const todoMarker = ' ';
 
 function removeBlockComments(source) {
   let result = source;
