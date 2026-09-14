@@ -15,3 +15,8 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
  
+let arr = [1, 2, 3]
+
+arr.pop()
+arr.push(3)
+console.log(arr)

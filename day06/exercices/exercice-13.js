@@ -16,5 +16,5 @@
 // 2. Écris ta solution sous cette ligne.
  
 function sontEgaux(tab1, tab2){
-    
+    return JSON.stringify(tab1) === JSON.stringify(tab2)
 }
