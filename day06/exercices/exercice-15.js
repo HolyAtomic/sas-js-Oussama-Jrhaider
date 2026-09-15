@@ -15,3 +15,30 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
  
+function sort(tab1, tab2){
+    let arr = []
+    let i = 0
+    let j = 0
+    while(i < tab1.length && j < tab2.length){
+        if (tab1[i] < tab2[j]){
+            arr.push(tab1[i])
+            i++
+        }else{
+            arr.push(tab2[j])
+            j++
+        }
+    }
+        while(i < tab1.length){
+            arr.push(tab1[i])
+            i++
+        }
+        while(j < tab2.length){
+            arr.push(tab2[j])
+            j++
+        }
+        return arr
+    }
+
+let tab1 = [1, 5, 5, 8, 7]
+let tab2 = [2, 4, 6]
+console.log(sort(tab1,tab2))

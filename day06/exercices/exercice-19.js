@@ -15,3 +15,16 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
  
+function index(tab, nbr){
+    let i = 0
+    let arr = []
+    while(i < tab.length){
+        if (tab[i] === nbr){
+            return i
+        }
+        i++
+    }
+}
+let ind = [10, 20, 30, 40, 45, 50, 60]
+
+console.log(index(ind, 45));

@@ -15,3 +15,17 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
  
+function count(tab){
+    let obj = {}
+    let i = 0
+    while(i < tab.length){
+        let mots = tab[i]
+        if (obj[mots]) {
+            obj[mots]++
+        } else {
+            obj[mots] = 1
+        }
+        i++
+    }
+    return obj
+}

@@ -15,3 +15,17 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
  
+function grile(tab){
+    let i = 0
+    let arr = []
+    while(i < tab.length){
+        let j = 0
+        while(j < tab[i].length){
+            arr.push(tab[i][j])
+            j++
+        }
+        i++
+    }
+    return arr
+}
+console.log(grile([[1, 2], [3, 4], [5, 6]]))

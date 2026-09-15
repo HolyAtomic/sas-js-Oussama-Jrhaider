@@ -11,7 +11,7 @@
 
 let fruits = ["Pomme", "Banane", "Orange"]
 
-fruits.replace("Banane", "Mangue")
+fruits.splice(1, 1, "Mangue")
 
 console.log(fruits);
 

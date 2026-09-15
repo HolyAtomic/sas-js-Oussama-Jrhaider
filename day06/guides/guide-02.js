@@ -9,4 +9,14 @@
  */
 'use strict';
 
+ function calcul(cal){
+    let i = 0
+    let somme = 0
+    while(i < cal.length){
+        somme += cal[i]
+        i++
+    }
+    return somme / cal.length
+ }
+ console.log(calcul([12, 15, 8, 19]));
  

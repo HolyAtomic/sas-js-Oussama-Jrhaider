@@ -17,6 +17,30 @@
  * ▶️ Commande : node day05/challenge/challenge.js
  */
 'use strict';
-
-// Découpe d'abord le problème en petites étapes.
  
+let panier = [101, 105, 101, 102];
+
+function ajouterAuPanier(id) {
+    panier.push(id);
+}
+
+function retirerDuPanier(id) {
+    let nouveauPanier = [];
+    let i = 0;
+
+    while (i < panier.length) {
+        if (panier[i] !== id) {
+            nouveauPanier.push(panier[i]);
+        }
+
+        i++;
+    }
+
+    panier = nouveauPanier;
+}
+
+ajouterAuPanier(103);
+console.log(panier);
+
+retirerDuPanier(101);
+console.log(panier);

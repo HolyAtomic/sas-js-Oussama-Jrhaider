@@ -15,3 +15,16 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
  
+function filter(arr){
+    let arr1 = []
+    let i = 0
+    while(i < arr.length){
+        if (typeof arr[i] == "number" ){
+            arr1.push(arr[i])
+        }
+        i++
+    }
+    return arr1
+}
+// let tableau = ["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5]
+// console.log(filter(tableau))

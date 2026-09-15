@@ -20,4 +20,3 @@ const acronym = phrase
     .toUpperCase();
 
 console.log(acronym);
-// ["Hyper", "Text", "Markup" ,"Language"]

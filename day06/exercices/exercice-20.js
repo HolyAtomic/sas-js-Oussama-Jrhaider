@@ -15,3 +15,19 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
  
+function colors(tab){
+    let i = 0
+    let arr = []
+    while(i < tab.length){
+        let j = 0
+        while(j < tab.length){
+            if(i !== j){
+                arr.push(tab[i] + "-" + tab[j])
+            }
+            j++
+        }
+        i++
+    }
+    return arr
+}
+console.log(colors(["Rouge", "Vert", "Bleu"]));
