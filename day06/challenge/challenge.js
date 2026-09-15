@@ -41,6 +41,3 @@ function retirerDuPanier(id) {
 
 ajouterAuPanier(103);
 console.log(panier);
-
-retirerDuPanier(101);
-console.log(panier);
