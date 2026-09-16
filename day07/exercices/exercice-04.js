@@ -12,18 +12,14 @@
  */
 'use strict';
 
-function possedePropriete(obj, cle) {
-  return Object.prototype.hasOwnProperty.call(obj, cle);
-}
-
 const utilisateur = {
   nom: 'Oussama',
   age: 22,
 };
 
+function possedePropriete(obj, cle){
+    return cle in obj
+}
+
 console.log(possedePropriete(utilisateur, 'nom'));
 console.log(possedePropriete(utilisateur, 'email'));
-
-function possedePropriete(obj, cle){
-    return obj in cle
-}
