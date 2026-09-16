@@ -19,34 +19,34 @@
  */
 'use strict';
 
-const utilisateurs = [];
+const utilisateurs = []
 
 function ajouterUtilisateur(nom, email) {
-    const id = utilisateurs.length + 1;
+    const id = utilisateurs.length + 1
 
     const utilisateur = {
         id: id,
         nom: nom,
         email: email
-    };
+    }
 
-    utilisateurs.push(utilisateur);
+    utilisateurs.push(utilisateur)
 
-    return utilisateur;
+    return utilisateur
 }
 
 function trouverParEmail(email) {
-    let i = 0;
+    let i = 0
 
     while (i < utilisateurs.length) {
         if (utilisateurs[i].email === email) {
-            return utilisateurs[i];
+            return utilisateurs[i]
         }
 
-        i++;
+        i++
     }
 
-    return null;
+    return null
 }
 
 function supprimerParId(id) {
