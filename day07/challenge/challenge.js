@@ -22,32 +22,65 @@
 const utilisateurs = [];
 
 function ajouterUtilisateur(nom, email) {
-  const id = utilisateurs.length ? Math.max(...utilisateurs.map((u) => u.id)) + 1 : 1;
-  const utilisateur = { id, nom, email };
-  utilisateurs.push(utilisateur);
-  return utilisateur;
+    const id = utilisateurs.length + 1;
+
+    const utilisateur = {
+        id: id,
+        nom: nom,
+        email: email
+    };
+
+    utilisateurs.push(utilisateur);
+
+    return utilisateur;
 }
 
 function trouverParEmail(email) {
-  return utilisateurs.find((utilisateur) => utilisateur.email === email) ?? null;
+    let i = 0;
+
+    while (i < utilisateurs.length) {
+        if (utilisateurs[i].email === email) {
+            return utilisateurs[i];
+        }
+
+        i++;
+    }
+
+    return null;
 }
 
 function supprimerParId(id) {
-  const index = utilisateurs.findIndex((utilisateur) => utilisateur.id === id);
-  if (index !== -1) {
-    utilisateurs.splice(index, 1);
-  }
+    let i = 0;
+
+    while (i < utilisateurs.length) {
+        if (utilisateurs[i].id === id) {
+            utilisateurs.splice(i, 1);
+            return;
+        }
+
+        i++;
+    }
 }
 
 function afficherAnnuaire() {
-  console.log('Annuaire :');
-  utilisateurs.forEach((utilisateur) => {
-    console.log(`ID ${utilisateur.id} - ${utilisateur.nom} (${utilisateur.email})`);
-  });
+    console.log("Annuaire :");
+
+    let i = 0;
+
+    while (i < utilisateurs.length) {
+        console.log(
+            `ID ${utilisateurs[i].id} - ${utilisateurs[i].nom} (${utilisateurs[i].email})`
+        );
+
+        i++;
+    }
 }
 
-ajouterUtilisateur('Alice', 'alice@example.com');
-ajouterUtilisateur('Bob', 'bob@example.com');
-console.log(trouverParEmail('alice@example.com'));
+ajouterUtilisateur("amine", "amine@example.com");
+ajouterUtilisateur("oussam", "oussam@example.com");
+
+console.log(trouverParEmail("amine@example.com"));
+
 supprimerParId(1);
+
 afficherAnnuaire();
